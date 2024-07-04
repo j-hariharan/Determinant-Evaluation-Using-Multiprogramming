@@ -83,3 +83,8 @@ Some of the running times of the multiprogramming implementations in comparision
 - It is seen that both multi-programming techniques gives similar results which are also significantly better when compared to the single-process approach.
 - The type of data sharing used does not affect the running time in any noticable way. Both methods can be considred equally efficient.
 - It is worth noting that the single-process approach has better performance when it comes to smaller input sizes. This is because the overhead of creating and managing threads/processes becomes more expensive than the improvements due to parallelization.
+
+## Contributers 
+- Deepak
+- J. Hariharan
+- Jyotsana Achal

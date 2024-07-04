@@ -39,7 +39,7 @@ These, too, have their differences, and are preferred based on the specific use 
 - A choice needs to be made among the two options depending upon the availability of memory, size of the shared variable, number of child processes, complexity of computations, etc.
 
 
-### Running Time Comparision
+### Running Time Comparison
 
 ```sh
 # multi-process
@@ -79,12 +79,12 @@ Determinant: -1424335653 (2551ms)
 Naive determinant: -1424335653 (9038ms)
 ```
 
-Some of the running times of the multiprogramming implementations in comparision with the naive implementation is shown above.
-- It is seen that both multi-programming techniques gives similar results which are also significantly better when compared to the single-process approach.
-- The type of data sharing used does not affect the running time in any noticable way. Both methods can be considred equally efficient.
+Some of the running times of the multiprogramming implementations in comparison with the naive implementation is shown above.
+- It is seen that both multi-programming techniques give similar results which are also significantly better when compared to the single-process approach.
+- The type of data sharing used does not affect the running time in any noticeable way. Both methods can be considered equally efficient.
 - It is worth noting that the single-process approach has better performance when it comes to smaller input sizes. This is because the overhead of creating and managing threads/processes becomes more expensive than the improvements due to parallelization.
 
-## Contributers 
+## Contributors 
 - Deepak
 - J. Hariharan
 - Jyotsana Achal
